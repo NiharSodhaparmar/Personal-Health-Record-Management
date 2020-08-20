@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#d3d3d3">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:text="Appointments/Visit"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="20dp">
+                </TextView>
+            </FrameLayout>
+            <EditText
+                android:id="@+id/appointment_date1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Appointment Date"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+            <EditText
+                android:id="@+id/appointment_time1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Appointment Time"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+
+            <Spinner
+                android:id="@+id/subject_matter1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined">
+            </Spinner>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#d3d3d3"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:text="Doctor Information"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="20dp">
+                </TextView>
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/doctor_name1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Doctor Name"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+
+            <EditText
+                android:id="@+id/clinic_name1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Clinic Name"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+            <EditText
+                android:id="@+id/street11"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Street"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+            <EditText
+                android:id="@+id/area1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Area"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+
+            <EditText
+                android:id="@+id/city1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="City"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+
+            <EditText
+                android:id="@+id/state11"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="State"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#d3d3d3"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:text="Add Other Document"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="20dp">
+                </TextView>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_document1"
+                android:layout_width="300dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:text="Select Document"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btn_edit_app"
+                android:layout_width="180dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:text="Edit"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btn_delete_app"
+                android:layout_width="180dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:text="Delete"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_grid"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Section" />
+    <item
+        android:id="@+id/nav_overview"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Over View" />
+    <item
+        android:id="@+id/nav_timeline"
+        android:icon="@drawable/ic_timeline_black_24dp"
+        android:title="Time Line" />
+
+</menu>

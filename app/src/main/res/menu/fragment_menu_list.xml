@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:id="@+id/g1">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Personal Info"/>
+    </group>
+
+    <group android:id="@+id/g2">
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings"
+        />
+    </group>
+
+    <group android:id="@+id/g3">
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="Help"/>
+    </group>
+
+    <group android:id="@+id/g4">
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="About"/>
+    </group>
+
+    <group android:id="@+id/g5">
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/ic_remove_red_eye_black_24dp"
+        android:title="Privacy"/>
+    </group>
+    <group android:id="@+id/g6">
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout"/>
+    </group>
+</menu>

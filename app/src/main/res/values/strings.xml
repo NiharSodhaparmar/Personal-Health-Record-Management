@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">phrm</string>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="blood_type">
+        <item>Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="relation">
+        <item>Select</item>
+        <item>Yourself</item>
+        <item>Son</item>
+        <item>Wife</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>GrandFather</item>
+        <item>GrandMother</item>
+        <item>Uncle</item>
+        <item>Aunty</item>
+    </string-array>
+
+    <string-array name="subject_matter">
+        <item>Subject Matter</item>
+        <item>Cardiology</item>>
+        <item>Pneumology</item>
+        <item>Neurology</item>
+        <item>Radiotherapy</item>
+        <item>Immunology</item>
+        <item>Dermatology</item>
+        <item>Urology</item>
+        <item>Opthalmology</item>
+        <item>Accupuncture</item>
+        <item>Dentistry</item>
+        <item>Homeopathy</item>
+        <item>Orthopaedics Surgery</item>
+        <item>Psychology</item>
+    </string-array>
+
+    <string-array name="reactions_severity">
+        <item>Reaction Severity</item>
+        <item>Minor</item>
+        <item>Average</item>
+        <item>Serious</item>
+        <item>Very Serious</item>
+    </string-array>
+
+    <string-array name="verification_status">
+        <item>Verification Status</item>
+        <item>Confirmed</item>
+        <item>Unconfirmed</item>
+        <item>Refuted</item>
+    </string-array>
+
+    <string-array name="criticality">
+        <item>Criticality</item>
+        <item>Low</item>
+        <item>High</item>
+        <item>Unable to assess</item>
+    </string-array>
+
+    <string-array name="medical_documents">
+        <item>Document Type</item>
+        <item>X-RAY</item>
+        <item>CT SCAN</item>
+        <item>MRI</item>
+        <item>Prescription</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
